@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--The link code below calls the styling of the page to the index.html-->
+
+    <link rel="stylesheet" href="styles.css"/>
+    <!--The title element is shown on the browser tabs-->
+    </head>
+      <body>
+        <div class="container">
+          <header class="header">
+<!--The code below (h1) is called a header, used for headlines-->
+            <h1 id="title" class="text-center">Tolkien Community Survey Form</h1>
+<!--The p element is used for paragrphs-->
+            <p id="description" class="description text-center">Welcome to the Tolkien Community, we appreciate your participants on improving this wonderful world of Tolkien...</p>
+          </header>
+
+<!--Up until this point, I just established an html page header, linked the css and wrote a paragraph, nothing major-->
+
+<!--The code below is used to make the inputs of: name, age and email.-->
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+            <input  type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email">Email</label>
+            <input  type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="number">Age</label>
+            <input  type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Enter your age" required />
+        </div>
+
+<!--The code above is used to make the inputs of: name, age and email.-->
+
+<!--The code below is used for creating dropdown lists-->
+
+        <div class="form-group">
+          <p>Which one of the characters below you love the most?</p>
+            <select id="dropdown" name="role" class="form-control" required>
+              <option disabled selected value>Select a character</option>
+              <option value="Gandalf">Gandalf</option>
+              <option value="Legolas">Legolas</option>
+              <option value="Boromir">Boromir</option>
+              <option value="Gollum">Gollum</option>
+              <option value="Sauron">Sauron</option>
+              <option value="The tomato that Denethor eats">The tomato that Denethor eats</option>
+              <option value="Frodo">Frodo</option>
+              <option value="Sam (The G.O.A.T)">Sam (The G.O.A.T)</option>
+          </select>
+        </div>
+
+<!--The code above is used for creating dropdown lists-->
+    
+<!--The code below is used for creating radio buttons-->
+
+        <div class="form-group">
+          <p>Would you be willing to share our vision of this community with a fellow brethren?</p>
+            <label>
+              <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked />Definitely</label>
+            <label>
+              <input name="user-recommend" value="definitely" type="radio" class="input-radio" />Maybe</label>
+            <label>
+              <input name="user-recommend" value="definitely" type="radio" class="input-radio" />Not Sure</label>
+
+<!--The code above is used for creating radio buttons-->
+
+<!--The code below is used for creating dropdown lists-->
+
+        <div class="form-group">
+        <p>Which one of these are your favourite book of all time?</p>
+          <select id="most-like" name="most-like" class="form-control" required>
+            <option disabled selected value>Select a Book</option>
+            <option value="The Lord of the Rings Trilogy">The Lord of the Rings Trilogy</option>
+            <option value="The Hobbit">The Hobbit</option>
+            <option value="The Silmarillion">The Silmarillion</option>
+            <option value="Unfinished Tales of Númenor and Middle-earth">Unfinished Tales of Númenor and Middle-earth</option>
+            <option value="Tales from the Perilous Realm">Tales from the Perilous Realm</option>
+            <option value="The Children of Húrin">The Children of Húrin</option>
+            <option value="The Farmer Giles of Ham">The Farmer Giles of Ham</option>
+            <option value="The Adventures of Tom Bombadil">The Adventures of Tom Bombadil</option>
+          </select>
+        </div>
+
+<!--The code above is used for creating dropdown lists-->
+
+<!--The code below is used for creating checkboxed items, like a list, sort of...-->
+
+        <div class="form-group">
+          <p>What would you like to see improved in our community?</p>
+            <label><input name="prefer" value="more-interactions" type="checkbox" class="input-checkbox" />More interactions</label>
+            <label><input name="prefer" value="improved-forum" type="checkbox" class="input-checkbox" />Improved forum</label>
+            <label><input name="prefer" value="monthly-giveaway" type="checkbox" class="input-checkbox" />Monthly giveaway</label>
+            <label><input name="prefer" value="weekly-discussions" type="checkbox" class="input-checkbox" />Weekly discussions</label>
+            <label><input name="prefer" value="zoom-movienights" type="checkbox" class="input-checkbox" />Zoom movie nights</label>
+        </div>
+
+<!--The code above is used for creating checkboxed items, like a list, sort of...-->
+
+<!--The code below is used for creating a text area where the users can enter their comments-->
+
+        <div class="form-group">
+        <p>Any comments or suggestions on how can we improve or add to this community?</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+
+<!--The code above is used for creating a text area where the users can enter their comments-->
+
+<!--The code below is used for creating a button to submit the form-->
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">
+            Submit
+          </button>
+
+<!--The code above is used for creating a button to submit the form-->
+
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
