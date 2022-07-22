@@ -1,0 +1,53 @@
+<main id="main">
+  <h1 id="title"> The Life of Tolkien </h1>
+  <p> The works and accomplishments of the beloved writer </p>
+  <figure id="img-div">
+    <img
+         id="image"
+         src="https://w0.peakpx.com/wallpaper/468/243/HD-wallpaper-j-r-r-tolkien-hobbit-lotr-silmarillion-writer.jpg"
+         alt="Tolkien looking dapper and smoking his favourite, Longbottom weed..."
+         />
+  <figcaption id="img-caption">
+    Tolkien looking dapper and smoking his favourite, Longbottom weed...
+    </figcaption>
+  </figure>
+  <section id="tribute-info">
+    <h2 id="headline"> The life of of Tolkien and his adventures...<h2>
+      <ul>
+        <li>
+          <strong>Jan 3 / 1892</strong> - John Ronald Reuel Tolkien was born into a wealthy, Roman Catholic family, on this date in Bloemfontein, South Africa. His parents had left England soon before his birth, due to the fact that his father got a promotion and was forced into moving down there for his work.</li>
+        <li>
+          <strong>Oct 1 / 1911</strong> - He received a degree in English Language and Literature in 1915. He originally started out studying Classics but changed his major somewhere along the way.</li>
+        <li>
+          <strong>Jul 29 / 1911</strong> - Tolkien Travels to Switzerland - JRR detailed in a letter, many years after this trip, about how it influenced the writing of his stories. In the hobbit in particular, Bilbo's journey into the mountains and some of the specific experiences he has, came directly from Tolkien's experience he had that summer when he travelled through the Alps.</li>
+        <li>
+          <strong>Jul 15 / 1915</strong> - Enlisted in British Army - Tolkien decided to finish his degree before enlisting to fight in the British Army. He didn't really want to enlist, but the pressure and potential shame from his friends and relatives finally pushed him to join the fight. In a letter to his wife, he detailed his discontent with his superiors and the people he was surrounded by in general during his time in the army.</li>
+         <li>
+           <strong>Mar 22 / 1916</strong> - Gets Married - John met Edith when he was 16 and she was 19. His father figure and guardian believed that she was tainting his education and prohibited him seeing her or communicating with her at all until he was 21 years old. He wrote to her as soon as he was 21, expressing his love to her and how they should get married. She was already engaged at the time, but admitted that she had always loved Tolkien more, and proceeded to drop her fiance and marry John instead.</li>
+        <li>
+          <strong>Oct 27 / 1916</strong> - Tolkien gets Trench Fever - He was involved in the attack on the Regina Trench, and came down with "Trench Fever" which was a common disease carried by lice that thrived in the dirty, damp trenches of World War 1. This was the last time that Tolkien ever really fought in the war, as he came down with other health issues on top of the fever that prevented him from serving in the rest of the war.</li>
+        <li>
+          <strong>Nov 3 / 1920</strong> - Left the Army, Started Teaching at Leeds - When Tolkien started teaching English at the University of Leeds, he was the youngest professor to ever teach there. During his time there, he published a few notable works, including "A Middle English Vocabulary," which ended up getting widely used for many years afterwards.</li>
+        <li>
+          <strong>Sep 1 / 1925</strong> - Started Teaching at Oxford - Tolkien was hired as a professor of Anglo-Saxon, a position he held for quite a while.</li>
+        <li>
+          <strong>Sep 21 / 1937</strong> - The Hobbit gets published - The Hobbit, which is the prequel story to the Lord of the Rings trilogy, was first published on this date. Tolkien had started working on it in the summer of 1930, and 7 years later he finally finished writing. The book was successful and immediately became popular, so Tolkien began writing the sequel, "The Fellowship of the Ring", very soon after.</li>
+        <li>
+          <strong>Mar 28 / 1972</strong> - Earned the Title of CBE - On this day, Tolkien was appointed a Commander of the Order of the British Empire by Queen Elizabeth. This is the third highest possible appointment that can be granted by the Queen, only succeeded by "Knight Commander" and "Knight Grand Cross"</li>
+        <li>
+          <strong>Sep 2 / 1973</strong> - Tolkien Died - John Ronald Reuel Tolkien died on this date in the early 70's, not long after the death of his wife Edith. They were buried in the same grave. As you can see in the picture, the name Beren is underneath JRR's name, and Luthien is underneath Edith's. This was inspired by part of Tolkien's stories, in which there is a man named Beren and an elven woman named Luthien. They are in love, but since Luthien is immortal, Beren dies first, but she convinces the gods to bring him back to life.</li>
+      </ul>
+      <blockquote
+                  cite="https://www.deseret.com/2015/3/25/20479267/jrr-tolkien-quotes">
+        <p>
+                  “It’s a dangerous business, Frodo, going out your door. You step onto the road, and if you don’t keep your feet, there’s no knowing where you might be swept off to.”
+        </p>
+        <cite>* Bilbo Baggins *</cite>
+        <h3> There is still a lot to learn from this extraordinary writer and his vision of the Middle-Earth on <a
+     id="tribute-link"
+     href="https://www.tolkiensociety.org/"
+     target="_blank"
+     >The Tolkien Society.</a>
+        </h3>
+    </section>
+  </main>
