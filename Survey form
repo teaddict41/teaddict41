@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+  
     <!--The link code below calls the styling of the page to the index.html-->
 
     <link rel="stylesheet" href="styles.css"/>
